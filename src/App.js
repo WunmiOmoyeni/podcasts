@@ -3,6 +3,7 @@ import './index.css'
 import NavbarImage from './Components/NavbarImage'
 import BestDesignInspo from './Components/BestDesignInspo'
 import TopPodcasts from './Components/TopPodcasts'
+import EssentialEpisodes from './Components/EssentialEpisodes'
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <NavbarImage/>
       <BestDesignInspo/>
       <TopPodcasts/>
+      <EssentialEpisodes/>
     </div>
   )
 }
