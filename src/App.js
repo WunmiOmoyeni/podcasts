@@ -1,11 +1,15 @@
 import React from 'react'
 import './index.css'
-import Navbar from './Components/Navbar'
+import NavbarImage from './Components/NavbarImage'
+import BestDesignInspo from './Components/BestDesignInspo'
+import TopPodcasts from './Components/TopPodcasts'
 
 export const App = () => {
   return (
-    <div className='bg-blue-200 h-screen'>
-      <Navbar/>
+    <div>
+      <NavbarImage/>
+      <BestDesignInspo/>
+      <TopPodcasts/>
     </div>
   )
 }
