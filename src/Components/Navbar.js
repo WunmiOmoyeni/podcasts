@@ -6,7 +6,7 @@ import dropdown from '../images/span.qodef-m-lines.svg'
 
 export const Navbar = () => {
   return (
-    <div className='flex p-10 absolute top-0'>
+    <div className='flex px-40 py-10 m-auto justify-between absolute top-0'>
       <img className='resonator' src={logo}></img>
       <div className="ml-20">
         <a href='#' className='ml-20 mr-10 font-bold hover:underline relative'>
@@ -17,7 +17,7 @@ export const Navbar = () => {
         <a href='#' className='mr-20 font-bold hover:underline'>Shop</a>
       </div>
 
-      <div className='flex mr-10 search'>
+      <div className='flex mr-10 search justify-'>
          <img className='mr-3' src={searchbutton}></img>
          <p className='font-bold'>Search</p>
       </div>

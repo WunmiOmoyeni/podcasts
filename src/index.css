@@ -83,8 +83,12 @@
     left: 350px;
 }
 
+.heading-timmy{
+    width: 350px;
+}
+
 .timmy-side{
-    width:750px;
+    width: 950px;
 }
 
 .best-design-inspo{
@@ -103,4 +107,7 @@
 
 .episodes{
     width: 350px;
+}
+
+.collaborate{
 }
