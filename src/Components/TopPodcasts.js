@@ -26,7 +26,7 @@ const TopPodcasts = () => {
             <h1 className='text-4xl font-bold mb-3' style={{fontFamily: 'Lato-Black'}}>Top Podcasts:</h1>
             <p>Discover the selection of the most popular podcasts.</p>
         </div>
-        <div className='gap-20 p-5'>
+        <div className='gap-10 p-5'>
           <Slider {...sliderSettings} >
             <div>
               <div className='flex rounded-lg bg-white mx-6 shadow-lg shadow-gray '>

@@ -10,7 +10,7 @@ import Footer from './Components/Footer'
 
 export const App = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <NavbarImage/>
       <BestDesignInspo/>
       <TopPodcasts/>

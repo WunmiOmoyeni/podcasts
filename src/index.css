@@ -60,7 +60,7 @@
     margin-left: 400px;
 }
 
-.new-episode{
+/* .new-episode{
     position: absolute;
     bottom: 300px;
     left: 350px;
@@ -76,7 +76,7 @@
     font-family: Lato-Bold;
     justify-content: center;
    
-}
+} */
 
 .timmy{
     bottom: -150px;
@@ -91,10 +91,6 @@
     width: 950px;
 }
 
-.best-design-inspo{
-    margin-top: 300px;
-    margin-left: 350px;
-}
 
 .best-design-heading{
     width: 350px;
@@ -103,11 +99,4 @@
 .best-designss{
     width: 500px;
     margin-right: 100px;
-}
-
-.episodes{
-    width: 350px;
-}
-
-.collaborate{
 }

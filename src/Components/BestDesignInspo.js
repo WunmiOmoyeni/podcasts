@@ -6,7 +6,7 @@ import LatoBold from '../fonts/Lato-Bold.ttf'
 
 const BestDesignInspo = () => {
   return (
-    <div className='best-design-inspo flex'>
+    <div className='flex justify-center my-56'>
         <div className='best-designss'>
             <div className='best-design-heading'>
                 <h1 className='text-4xl font-bold' style={{fontFamily: 'Lato-Regular'}}>Best places to find design inspiration</h1>
