@@ -19,6 +19,20 @@ const TopPodcasts = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 640,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ]
   }
   return (
     <div className='bg-[#F8F8F8] overflow-hidden'>
@@ -26,15 +40,15 @@ const TopPodcasts = () => {
             <h1 className='text-4xl font-bold mb-3' style={{fontFamily: 'Lato-Black'}}>Top Podcasts:</h1>
             <p>Discover the selection of the most popular podcasts.</p>
         </div>
-        <div className='gap-10 p-5'>
+        <div className='p-5'>
           <Slider {...sliderSettings} >
             <div>
-              <div className='flex rounded-lg bg-white mx-6 shadow-lg shadow-gray '>
+              <div className='flex flex-col xl:flex-row rounded-lg bg-white mx-6 shadow-lg shadow-gray '>
                 <img src={image12}/>
-                <div className='my-auto px-5 items-center   '>
+                <div className='my-auto px-5 py-5 sm:py-0 items-center'>
                   <p className='font-thin'>Episode 7 . Technology</p>
-                  <h2 className='font-bold text-3xl'>SRKP selects: open your mind easy</h2>
-                  <hr className='h-1 bg-black'></hr>
+                  <h2 className='font-bold text-3xl mt-2'>SRKP selects: open your mind easy</h2>
+                  <hr className='h-1 bg-black mt-2 mb-4'></hr>
                   <div className='flex'>
                     <p className='mr-2 mt-3 font-bold'>Episode page</p>
                     <img src={rightarrow}/>
@@ -44,12 +58,12 @@ const TopPodcasts = () => {
             </div>
             <div>
 
-              <div className='flex rounded-lg bg-white shadow-lg mx-6 shadow-gray gap-4'>
+              <div className='flex flex-col xl:flex-row rounded-lg bg-white mx-6 shadow-lg shadow-gray md:py-5'>
                 <img src={image11}/>
-                <div className='my-auto px-5 items-center   '>
+                <div className='my-auto px-5 py-5 sm:py-0 items-center'>
                   <p className='font-thin'>Episode 8 . Technology</p>
-                  <h2 className='font-bold text-3xl'>SRKP selects: keep your watch</h2>
-                  <hr className='h-1 bg-black'></hr>
+                  <h2 className='font-bold text-3xl mt-2'>SRKP selects: keep your watch</h2>
+                  <hr className='h-1 bg-black mt-2 mb-4'></hr>
                   <div className='flex'>
                     <p className='mr-2 mt-3 font-bold'>Episode page</p>
                     <img src={rightarrow}/>
@@ -59,12 +73,12 @@ const TopPodcasts = () => {
             </div>
             <div>
 
-              <div className='flex rounded-lg bg-white shadow-lg mx-6 shadow-gray '>
+              <div className='flex flex-col xl:flex-row rounded-lg bg-white mx-6 shadow-lg shadow-gray md:py-5'>
                 <img src={image13}/>
-                <div className='my-auto px-5 items-center   '>
+                <div className='my-auto px-5 py-5 sm:py-0 items-center'>
                   <p className='font-thin'>Episode 8 . Technology</p>
-                  <h2 className='font-bold text-3xl'>SRKP selects: keep your watch</h2>
-                  <hr className='h-1 bg-black'></hr>
+                  <h2 className='font-bold text-3xl mt-2'>SRKP selects: keep your watch</h2>
+                  <hr className='h-1 bg-black mt-2 mb-4'></hr>
                   <div className='flex'>
                     <p className='mr-2 mt-3 font-bold'>Episode page</p>
                     <img src={rightarrow}/>

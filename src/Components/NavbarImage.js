@@ -13,8 +13,8 @@ export const NavbarImage = () => {
         />
 
         <Navbar/>
-        <NewEpisode/>
         <TimmyMike/>
+        <NewEpisode/>
     </div>
   )
 }
