@@ -10,8 +10,13 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeDropdown = () => {
+    setIsOpen(false);
+  }
+
   return (
     <div className='absolute top-0 left-0 w-full p-4 shadow-none sm:shadow-md'>
+      {isOpen && <div className='overlay' onClick={closeDropdown}></div>}
       <div className='flex items-center justify-between'>
         <img className='h-4 sm:h-8' src={logo} alt='Logo' />
 
@@ -37,15 +42,18 @@ export const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className='sm:hidden mt-4 bg-white'>
+        <div className='sm:hidden mt-4'>
+          <div className='dropdown-menu p-10'>
+          <div className='flex items-center space-x-3 mt-4'>
+            <img className='h-6' src={searchbutton} alt='Search' />
+            <p className='font-bold'>Search</p>
+          </div>
           <a href='#' className='block font-bold hover:underline py-2'>Homes</a>
           <a href='#' className='block font-bold hover:underline py-2'>Pages</a>
           <a href='#' className='block font-bold hover:underline py-2'>Blog</a>
           <a href='#' className='block font-bold hover:underline py-2'>Podcast</a>
           <a href='#' className='block font-bold hover:underline py-2'>Shop</a>
-          <div className='flex items-center space-x-3 mt-4'>
-            <img className='h-6' src={searchbutton} alt='Search' />
-            <p className='font-bold'>Search</p>
+          
           </div>
         </div>
       )}
