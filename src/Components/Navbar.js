@@ -48,11 +48,11 @@ export const Navbar = () => {
             <img className='h-6' src={searchbutton} alt='Search' />
             <p className='font-bold'>Search</p>
           </div>
-          <a href='#' className='block font-bold hover:underline py-2'>Homes</a>
-          <a href='#' className='block font-bold hover:underline py-2'>Pages</a>
-          <a href='#' className='block font-bold hover:underline py-2'>Blog</a>
-          <a href='#' className='block font-bold hover:underline py-2'>Podcast</a>
-          <a href='#' className='block font-bold hover:underline py-2'>Shop</a>
+          <a href='#' className='block font-bold hover:underline my-5 mt-10'>Homes</a>
+          <a href='#' className='block font-bold hover:underline my-5'>Pages</a>
+          <a href='#' className='block font-bold hover:underline my-5'>Blog</a>
+          <a href='#' className='block font-bold hover:underline my-5'>Podcast</a>
+          <a href='#' className='block font-bold hover:underline my-5'>Shop</a>
           
           </div>
         </div>
