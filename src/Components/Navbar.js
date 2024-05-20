@@ -43,16 +43,16 @@ export const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className='sm:hidden mt-4'>
-          <div className='dropdown-menu p-10'>
-          <div className='flex items-center space-x-3 mt-4'>
+          <div className='dropdown-menu'>
+          <div className='flex items-center space-x-3 mt-4 bg-gray-400 p-5 rounded-lg'>
             <img className='h-6' src={searchbutton} alt='Search' />
-            <p className='font-bold'>Search</p>
+            <p className='font-bold text-white'>Search</p>
           </div>
-          <a href='#' className='block font-bold hover:underline my-5 mt-10'>Homes</a>
-          <a href='#' className='block font-bold hover:underline my-5'>Pages</a>
-          <a href='#' className='block font-bold hover:underline my-5'>Blog</a>
-          <a href='#' className='block font-bold hover:underline my-5'>Podcast</a>
-          <a href='#' className='block font-bold hover:underline my-5'>Shop</a>
+          <a href='#' className='block font-bold hover:underline my-5 mt-10 px-10 py-5'>Homes</a>
+          <a href='#' className='block font-bold hover:underline my-5 px-10 py-5'>Pages</a>
+          <a href='#' className='block font-bold hover:underline my-5 px-10 py-5'>Blog</a>
+          <a href='#' className='block font-bold hover:underline my-5 px-10 py-5'>Podcast</a>
+          <a href='#' className='block font-bold hover:underline my-5 px-10 py-5'>Shop</a>
           
           </div>
         </div>
