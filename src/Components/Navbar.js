@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import logo from '../images/logonew1.png.svg';
 import searchbutton from '../images/svg.svg';
 import dropdown from '../images/span.qodef-m-lines.svg';
+import closedown from '../images/icon-menu-close.svg'
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,7 +45,12 @@ export const Navbar = () => {
       {isOpen && (
         <div className='sm:hidden mt-4'>
           <div className='dropdown-menu'>
+            <div className='flex justify-around ml-24'>
+            <img src={closedown} onClick={closeDropdown} className=''/>
+            </div>
+          
           <div className='flex items-center space-x-3 mt-4 bg-gray-400 p-5 rounded-lg'>
+            
             <img className='h-6' src={searchbutton} alt='Search' />
             <p className='font-bold text-white'>Search</p>
           </div>
